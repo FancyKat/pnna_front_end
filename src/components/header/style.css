@@ -1,0 +1,21 @@
+.a {
+    fill:#2b4b8a;
+}
+
+.b,.d {
+    fill:#fff;
+    font-family:SegoeUI-Bold, Segoe UI;
+    font-weight:700;
+}
+
+.b {
+    font-size:25px;
+}
+
+.c {
+    fill:#0ceb92;
+}
+
+.d {
+    font-size:40px;
+}
