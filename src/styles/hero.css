@@ -1,0 +1,54 @@
+
+.hero_banner,.b,.c,.e,.f,.g,.h {
+    stroke:#707070;
+}
+
+.b,.c,.d,.e,.h {
+    fill:#fff;
+}
+
+.b {
+    font-size:41px;
+}
+
+.b,.d {
+    font-family:SegoeUI-Bold, Segoe UI;
+}
+
+.b,.d,.f,.h {
+    font-weight:700;
+}
+
+.c {
+    font-size:102px;
+    font-family:SegoeUI, Segoe UI;
+}
+
+.d { 
+    font-size:23px;
+}
+
+.f {
+    font-size:27px;
+}
+
+.f,.h {
+    font-family:Arial-BoldMT, Arial;
+}
+
+.g {
+    fill:#0ceb92;
+}
+
+.h {
+    font-size:29px;
+}
+
+.hero_img {
+    stroke:none;
+}
+
+.j {
+    background: blue;
+}
+

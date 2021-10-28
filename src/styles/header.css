@@ -1,0 +1,34 @@
+/* .navigationbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.navBase {
+    fill:#2b4b8a;
+}
+
+.navbar {
+    fill:#2b4b8a;
+}
+.navbar:hover {
+    fill: black;
+}
+
+.navOption,.logo {
+    fill:#fff;
+    font-family:SegoeUI-Bold, Segoe UI;
+    font-weight:700;
+}
+
+.navOption {
+    font-size:25px;
+}
+
+.loginButton {
+    fill:#0ceb92;
+}
+
+.logo {
+    font-size:40px;
+}

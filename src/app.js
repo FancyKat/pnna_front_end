@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useEffect } from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Header from './components/header/header';
-import HeroBannerComponent from './components/home/hero_banner';
-import AboutComponent from './components/home/about';
-import SignUpComponent from './components/home/sign_up';
+
+
+import HeroBannerComponent from "./components/home/hero_banner";
+import AboutComponent from "./components/home/about";
+import SignUpComponent from "./components/home/sign_up";
+
 
 
 function App() {
-    return (
-        <>
-            <Header />
-            <HeroBannerComponent/>
-            <AboutComponent />
-            <SignUpComponent />
-        </>
-    )
+  return (
+    <React.StrictMode>
+      {/* <Switch> */}
+        {/* <Route exact path="/"> */}
+          <main>
+              <HeroBannerComponent />
+              {/* <AboutComponent /> */}
+          </main>
+        {/* </Route> */}
+        {/* </Switch> */}
+    </React.StrictMode>
+  );
 }
 
 export default App;
