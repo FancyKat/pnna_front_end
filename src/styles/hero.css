@@ -1,54 +1,57 @@
-
-.hero_banner,.b,.c,.e,.f,.g,.h {
-    stroke:#707070;
+.container {
+  position: absolute;
 }
 
-.b,.c,.d,.e,.h {
-    fill:#fff;
+.hero_banner {
+  fill: #898989;
 }
-
-.b {
-    font-size:41px;
+.top,
+.mid,
+.bottom,
+.sign-up-text {
+  fill: #fff;
 }
-
-.b,.d {
-    font-family:SegoeUI-Bold, Segoe UI;
-}
-
-.b,.d,.f,.h {
-    font-weight:700;
-}
-
-.c {
-    font-size:102px;
-    font-family:SegoeUI, Segoe UI;
-}
-
-.d { 
-    font-size:23px;
-}
-
-.f {
-    font-size:27px;
-}
-
-.f,.h {
-    font-family:Arial-BoldMT, Arial;
-}
-
-.g {
-    fill:#0ceb92;
-}
-
+.top,
+.mid,
+.logo,
+.f,
+.g,
 .h {
-    font-size:29px;
+  stroke: #707070;
 }
-
-.hero_img {
-    stroke:none;
+.top {
+  font-size: 41px;
 }
-
-.j {
-    background: blue;
+.top,
+.bottom {
+  font-family: SegoeUI-Bold, Segoe UI;
 }
-
+.top,
+.bottom,
+.sign-up-text,
+.logo-text {
+  font-weight: 700;
+}
+.mid {
+  font-size: 102px;
+  font-family: SegoeUI, Segoe UI;
+}
+.bottom {
+  font-size: 23px;
+}
+.sign-up-text {
+  font-size: 27px;
+}
+.sign-up-text,
+.logo-text {
+  font-family: Arial-BoldMT, Arial;
+}
+.sign-up-button {
+  fill: #0ceb92;
+}
+.logo-text {
+  font-size: 29px;
+}
+.logo_img {
+  stroke: none;
+}

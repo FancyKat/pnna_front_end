@@ -16,7 +16,7 @@ function App() {
         {/* <Route exact path="/"> */}
           <main>
               <HeroBannerComponent />
-              {/* <AboutComponent /> */}
+              <AboutComponent />
           </main>
         {/* </Route> */}
         {/* </Switch> */}

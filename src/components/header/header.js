@@ -6,7 +6,6 @@ function Header(){
 
     
             return (
-                <>
                 <header className="navigationbar" >
                     <svg viewBox="0 0 1920 100">
                         <rect className="navBase" width={1920} height={100} />
@@ -54,8 +53,7 @@ function Header(){
                         </text>
                     </svg>  
                 </header>
-          
-             </>
+        
                 
             )
         }

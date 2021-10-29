@@ -6,9 +6,11 @@ import Main from "./main.js";
 
 // import "./styles/about.css"
 import "./styles/reset.css";
+import "./styles/base.css";
 import "./styles/header.css";
 import "./styles/hero.css";
-import "./styles/base.css";
+import "./styles/about.css";
+
 
 
 

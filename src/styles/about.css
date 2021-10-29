@@ -1,116 +1,148 @@
-/* About Page */
 .a {
-    fill:none;
+  fill: none;
 }
-
 .b {
-    fill:#2b4b8a;
-    stroke:rgba(43,75,138,0);
+  fill: #2b4b8a;
+  stroke: rgba(43, 75, 138, 0);
 }
-
 .c {
-    clip-path:url(#a);
+  clip-path: url(#a);
 }
-
-.d,.f,.g {
-    fill:#fff;
-}
-
-.aa,.ab,.ac,.ad,.ae,.af,.ag,.d,.e,.f,.h,.i,.j,.k,.l,.m,.n,.o,.p,.q,.r,.s,.t,.u,.v,.w,.x,.y,.z {    stroke:#707070;
-}
-
-.e {
-    fill:url(#b);
-}
-
-.f {
-    font-size:50px;
-}
-
-.f,.g {
-    font-family:SegoeUI-Bold, Segoe UI;font-weight:700;
-}
-
+.d,
+.f,
 .g {
-    font-size:26px; 
+  fill: #fff;
 }
-
-.h {
-    fill:#b28b67;
-}
-
-.aa,.ab,.h,.i,.j,.k,.l,.m,.n,.o,.p,.q,.r,.s,.t,.u,.v,.w,.x,.y,.z {
-    fill-rule:evenodd;
-}
-
-.ad,.ae,.i,.o {
-    fill:#191847;
-}
-
-.j {
-    fill:#c5cfd6;
-}
-
-.aa,.k {
-    fill:#1f28cf; 
-}
-
-.l {
-    fill:#2b44ff;
-}
-
-.ab,.m,.n {
-    fill:#e4e4e4;
-}
-
-.p {
-    fill:#dde3e9;
-}
-
-.ac,.q {
-    fill:#2f3676;
-}
-
-.r {
-    fill:rgba(0,0,0,0.1);
-}
-
-.s {
-    fill:rgba(255,255,255,0.2);
-}
-
-.t {
-    fill:#997659;
-}
-
-.u {
-    fill:#3354ff;
-}
-
-.ag,.v {
-    fill:#0ceb92;
-}
-
-.w {
-    fill:#f2f2f2;
-}
-
-.x {
-    fill:#323337;
-} 
-
-.y {
-    fill:#c1dee2;
-}
-
+.aa,
+.ab,
+.ac,
+.ad,
+.ae,
+.af,
+.ag,
+.d,
+.e,
+.f,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p,
+.q,
+.r,
+.s,
+.t,
+.u,
+.v,
+.w,
+.x,
+.y,
 .z {
-    fill:rgba(0,0,0,0.2);
+  stroke: #707070;
 }
-
+.e {
+  fill: url(#b);
+}
+.f {
+  font-size: 50px;
+}
+.f,
+.g {
+  font-family: SegoeUI-Bold, Segoe UI;
+  font-weight: 700;
+}
+.g {
+  font-size: 26px;
+}
+.h {
+  fill: #b28b67;
+}
+.aa,
+.ab,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p,
+.q,
+.r,
+.s,
+.t,
+.u,
+.v,
+.w,
+.x,
+.y,
+.z {
+  fill-rule: evenodd;
+}
+.ad,
+.ae,
+.i,
+.o {
+  fill: #191847;
+}
+.j {
+  fill: #c5cfd6;
+}
+.aa,
+.k {
+  fill: #1f28cf;
+}
+.l {
+  fill: #2b44ff;
+}
+.ab,
+.m,
+.n {
+  fill: #e4e4e4;
+}
+.p {
+  fill: #dde3e9;
+}
+.ac,
+.q {
+  fill: #2f3676;
+}
+.r {
+  fill: rgba(0, 0, 0, 0.1);
+}
+.s {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.t {
+  fill: #997659;
+}
+.u {
+  fill: #3354ff;
+}
+.ag,
+.v {
+  fill: #0ceb92;
+}
+.w {
+  fill: #f2f2f2;
+}
+.x {
+  fill: #323337;
+}
+.y {
+  fill: #c1dee2;
+}
+.z {
+  fill: rgba(0, 0, 0, 0.2);
+}
 .af {
-    fill:url(#c);
+  fill: url(#c);
 }
-
 .ah {
-    stroke:none;
+  stroke: none;
 }

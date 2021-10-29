@@ -1,34 +1,37 @@
-/* .navigationbar {
-  position: fixed;
+.navigationbar {
+  position: relative;
   top: 0;
+  margin: 0;
   width: 100%;
-} */
+  display:block
+}
 
 .navBase {
-    fill:#2b4b8a;
+  fill: #2b4b8a;
 }
 
 .navbar {
-    fill:#2b4b8a;
+  fill: #2b4b8a;
 }
 .navbar:hover {
-    fill: black;
+  fill: black;
 }
 
-.navOption,.logo {
-    fill:#fff;
-    font-family:SegoeUI-Bold, Segoe UI;
-    font-weight:700;
+.navOption,
+.logo {
+  fill: #fff;
+  font-family: SegoeUI-Bold, Segoe UI;
+  font-weight: 700;
 }
 
 .navOption {
-    font-size:25px;
+  font-size: 25px;
 }
 
 .loginButton {
-    fill:#0ceb92;
+  fill: #0ceb92;
 }
 
 .logo {
-    font-size:40px;
+  font-size: 40px;
 }

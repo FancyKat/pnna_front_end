@@ -2,29 +2,31 @@ import React from "react";
 
 function HeroBannerComponent() {
   return (
-    <>
-      <div className="container">
+      <section className="container">
+
+        {/* Hero Banner */}
         <svg viewBox="0 0 1920 684">
-          {/* Hero Image */}
-          <g transform="translate(0 -199.704)">
-            <g className="hero_banner" transform="translate(0 199.704)">
-              <rect className="hero_img" width={1920} height={684} />
-              <rect className="j" x={0.5} y={0.5} width={1919} height={683} />
-            </g>
+          <g transform="translate(0 -100)">
+            <rect
+              className="hero_banner"
+              width={1920}
+              height={684}
+              transform="translate(0 100)"
+            />
 
             {/* Hero Text Block */}
-            <g transform="translate(243 256.595)">
-              <text className="b" transform="translate(0 44.109)">
+            <g transform="translate(243 156.891)">
+              <text className="top" transform="translate(0 44.109)">
                 <tspan x={0} y={0}>
                   {"Lorem ipsum"}
                 </tspan>
               </text>
-              <text className="c" transform="translate(0 137.109)">
+              <text className="mid" transform="translate(0 137.109)">
                 <tspan x={0} y={0}>
                   {"PNACC"}
                 </tspan>
               </text>
-              <text className="d" transform="translate(0 185.109)">
+              <text className="bottom" transform="translate(0 185.109)">
                 <tspan x={0} y={25}>
                   {"Lorem ipsum dolor sit amet, consetetur "}
                 </tspan>
@@ -41,34 +43,33 @@ function HeroBannerComponent() {
             </g>
 
             {/* Logo Image */}
-            <g transform="translate(1608 613.704)">
-              <g className="e" transform="translate(0 0)">
-                <rect className="i" width={215} height={205} rx={102.5} />
-                <rect
-                  className="j"
-                  x={0.5}
-                  y={0.5}
-                  width={214}
-                  height={204}
-                  rx={102}
-                />
-              </g>
-              <text className="f" transform="translate(108 96)">
-                <tspan x={-39.749} y={0}>
-                  {"LOGO"}
-                </tspan>
-                <tspan x={-37.507} y={31}>
-                  {"HERE"}
-                </tspan>
-              </text>
+            <g className="logo" transform="translate(1608 514)">
+              <rect className="logo_img" width={215} height={205} rx={102.5} />
+              <rect
+                className="logo_img"
+                x={0.5}
+                y={0.5}
+                width={214}
+                height={204}
+                rx={102}
+              />
             </g>
+            <text className="logo-text" transform="translate(1716 610)">
+              <tspan x={-39.749} y={0}>
+                {"LOGO"}
+              </tspan>
+              <tspan x={-37.507} y={31}>
+                {"HERE"}
+              </tspan>
+            </text>
 
-            {/* Sign Up button */}
-            <g transform="translate(278 674.704)">
+
+            {/* Sign Up Button */}
+            <g transform="translate(278 575)">
               <g className="g" transform="translate(0 0)">
-                <rect className="i" width={205} height={68} rx={34} />
+                <rect className="sign-up" width={205} height={68} rx={34} />
                 <rect
-                  className="j"
+                  className="sign-up-button"
                   x={0.5}
                   y={0.5}
                   width={204}
@@ -76,18 +77,17 @@ function HeroBannerComponent() {
                   rx={33.5}
                 />
               </g>
-              <text className="h" transform="translate(48 44)">
+              <text className="sign-up-text" transform="translate(48 44)">
                 <tspan x={0} y={0}>
                   {"Sign Up"}
                 </tspan>
               </text>
             </g>
           </g>
-
         </svg>
-      </div>
-    </>
-  );
+      </section>
+  
+    );
 }
 
 export default HeroBannerComponent;
