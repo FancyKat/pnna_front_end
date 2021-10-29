@@ -2,35 +2,9 @@
 import React from "react";
 
 const AboutComponent = () => (
-    <svg viewBox="0 0 1920 954">
-        <defs>
-            <style>
-                {
-                    ".a{fill:none;}.b{fill:#2b4b8a;stroke:rgba(43,75,138,0);}.c{clip-path:url(#a);}.d,.f,.g{fill:#fff;}.aa,.ab,.ac,.ad,.ae,.af,.ag,.d,.e,.f,.h,.i,.j,.k,.l,.m,.n,.o,.p,.q,.r,.s,.t,.u,.v,.w,.x,.y,.z{stroke:#707070;}.e{fill:url(#b);}.f{font-size:50px;}.f,.g{font-family:SegoeUI-Bold, Segoe UI;font-weight:700;}.g{font-size:26px;}.h{fill:#b28b67;}.aa,.ab,.h,.i,.j,.k,.l,.m,.n,.o,.p,.q,.r,.s,.t,.u,.v,.w,.x,.y,.z{fill-rule:evenodd;}.ad,.ae,.i,.o{fill:#191847;}.j{fill:#c5cfd6;}.aa,.k{fill:#1f28cf;}.l{fill:#2b44ff;}.ab,.m,.n{fill:#e4e4e4;}.p{fill:#dde3e9;}.ac,.q{fill:#2f3676;}.r{fill:rgba(0,0,0,0.1);}.s{fill:rgba(255,255,255,0.2);}.t{fill:#997659;}.u{fill:#3354ff;}.ag,.v{fill:#0ceb92;}.w{fill:#f2f2f2;}.x{fill:#323337;}.y{fill:#c1dee2;}.z{fill:rgba(0,0,0,0.2);}.af{fill:url(#c);}.ah{stroke:none;}"
-                }
-            </style>
-            <clipPath id="a">
-                <rect className="a" width={294} height={380} />
-            </clipPath>
-            <pattern
-                id="b"
-                preserveAspectRatio="xMidYMid slice"
-                width="100%"
-                height="100%"
-                viewBox="0 0 400 267"
-            >
-                <image width={400} height={267} xlinkHref="ComponentTMP_0-image.jpg" />
-            </pattern>
-            <pattern id="c" width={1} height={1} viewBox="0 116.667 513 496">
-                <image
-                    preserveAspectRatio="xMidYMid slice"
-                    width={513}
-                    height={683.572}
-                    xlinkHref="ComponentTMP_0-image2.jpg"
-                />
-            </pattern>
-        </defs>
-        <g transform="translate(0 -630)">
+    <section className="container">
+            <svg viewBox="0 0 1920 954">
+        <g transform="translate(0 -130)">
             <g className="b" transform="translate(0 784)">
                 <rect className="ah" width={1920} height={689} />
                 <rect className="a" x={0.5} y={0.5} width={1919} height={688} />
@@ -638,6 +612,8 @@ const AboutComponent = () => (
             </g>
         </g>
     </svg>
+    </section>
+
 );
 
 export default AboutComponent;

@@ -1,16 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import Main from "./main.js";
 
-import App from './app.js';
+
+// import "./styles/about.css"
+import "./styles/reset.css";
+import "./styles/base.css";
+import "./styles/header.css";
+import "./styles/hero.css";
+import "./styles/about.css";
+
+
+
+
+
 
 function Entry() {
-    return (
-        <>
-            <App />
-        </>
-    )
+  return (
+  <Main />
+  );
 }
 
-const root = document.getElementById('root');
+const root = document.getElementById("root");
 ReactDOM.render(<Entry />, root);
